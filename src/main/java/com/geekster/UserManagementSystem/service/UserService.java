@@ -10,9 +10,9 @@ import java.util.function.Predicate;
 @Service
 public class UserService {
     private static List<User> users=new ArrayList<>();
-    static {
-        users.add(new User(1,"shiv","shivachawade","bhopal","7089643415"));
-    }
+//    static {
+//        users.add(new User(1,"shiv","2019-02-03","bhopal","7089643415"));
+//    }
 
 
     public List<User> getUsers(){
@@ -44,9 +44,10 @@ public class UserService {
 
         user.setUserId(newUser.getUserId());
         user.setUserName(newUser.getUserName());
-        user.setName(newUser.getName());
         user.setPhoneNumber(newUser.getPhoneNumber());
-        user.setAddress(newUser.getAddress());
+        user.setEmail(newUser.getEmail());
+        user.setDate(newUser.getDate());
+        user.setTime(newUser.getTime());
 
 
     }
