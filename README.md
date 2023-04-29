@@ -17,7 +17,7 @@ DATA STRUCTURE
      i have used Arraylist to store users details.
    
 SUMMERY
-      this application is basically designed to perform CRUD operations .
+      this application is basically designed to perform CRUD operations and also i have used some validations on it .
       in this project i have used most popular framework springboot.
      
      
